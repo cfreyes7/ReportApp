@@ -1,6 +1,6 @@
 {
-  "name": "ReportApp",
-  "app_id": "",
+  "name": "ionic3_firebasev5.0",
+  "app_id": "df1b259c",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
