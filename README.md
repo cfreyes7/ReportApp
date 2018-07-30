@@ -1,7 +1,7 @@
 # grupo-4-crecer-en-inteligencia-social
 
 # ReportApp
-![ReportApp](https://raw.githubusercontent.com/fullstack-84/grupo-4-crecer-en-inteligencia-social/master/src/assets/imgs/logo.png)
+![ReportApp](https://raw.githubusercontent.com/fullstack-84/grupo-4-crecer-en-inteligencia-social/master/src/assets/imgs/logo2.PNG)
 
 Aplicación movil para realizar reportes sociales en tiempo real
 
