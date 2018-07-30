@@ -68,7 +68,7 @@ export class LoginPage {
   	if (isLogin == "facebook"){
       this.loadingProvider.startLoading();
 
-      let provider = new firebase.auth.FacebookAuthProvider();
+      let provider = new firebase.auth.FacebookAuthProvider();      
         firebase.auth().signInWithRedirect(provider).then(() => {
           this.loadingProvider.startLoading();
             firebase.auth().getRedirectResult().then((result)=>{

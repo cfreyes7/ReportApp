@@ -3,12 +3,6 @@
     <name>Reportapp</name>
     <description>Aplicación movil para realizar reportes sociales en tiempo real</description>
     <author email="cfreyes7@gmail.com" href="https://github.com/cfreyes7">Fabián Reyes</author>
-    <universal-links>
-        <host name="https://zv3t4.app.goo.gl" scheme="https" />
-        <host name="reportapp-9c4a1.firebaseapp.com" scheme="https">
-            <path url="/__/auth/callback" />
-        </host>
-    </universal-links>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
