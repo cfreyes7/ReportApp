@@ -11,7 +11,7 @@ loading:any;
   }
   startLoading(){
     this.loading = this.loadingCtrl.create({
-      content: 'Please wait...'
+      content: 'Un momento por favor...'
     });
       this.loading.present()
   }

@@ -1,8 +1,8 @@
 {
   "name": "ionic3_firebasev5.0",
-  "app_id": "df1b259c",
-  "type": "ionic-angular",
   "integrations": {
     "cordova": {}
-  }
+  },
+  "type": "ionic-angular",
+  "pro_id": "df1b259c"
 }

@@ -1,6 +1,7 @@
 # grupo-4-crecer-en-inteligencia-social
 
 # ReportApp
+![ReportApp](https://raw.githubusercontent.com/fullstack-84/grupo-4-crecer-en-inteligencia-social/master/src/assets/imgs/logo.png)
 
 Aplicación movil para realizar reportes sociales en tiempo real
 
@@ -10,7 +11,8 @@ Aplicación movil para realizar reportes sociales en tiempo real
 Para iniciar debe instalar [Node.js](https://nodejs.org/es/), y posterior a esto instalar
 
 ```
-npm install ionic firebase
+git clone https://github.com/fullstack-84/grupo-4-crecer-en-inteligencia-social.git
+npm install & ionic serve
 ```
 ### Instalacion
 

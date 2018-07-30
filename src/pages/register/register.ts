@@ -59,7 +59,7 @@ export class RegisterPage {
         this.afAuth.auth.createUserWithEmailAndPassword(regData.mail,regData.pass)
         .then(result => {
           this.loadingProvider.stopLoading();
-          this.presentToast('Ragister Successfully..!')
+          this.presentToast('Registro Exitoso..!')
             this.navCtrl.setRoot(LoginPage);
         }).catch(err => {
           this.loadingProvider.stopLoading();

@@ -6,15 +6,15 @@
       <img src="assets/imgs/logo.png">
     </div>
     <div padding text-center class="form-bottom-text">
-      <h3> Reset Password</h3>
-      <label>Enter the email address associated with your account,and review your email.</label>
+      <h3>Restablecer contraseña</h3>
+      <label>Ingrese la dirección de correo electrónico asociada a su cuenta y revise su correo electrónico.</label>
     </div>
     <div text-center class="socialLogin" padding></div>
       <div padding style="width: 100%;">
       <form [formGroup]="authForm" (ngSubmit)="forgetPassword(forgetData.email)">
 
         <div class="errormsg">
-          <div *ngIf="email.errors && email.touched"><p>Email is required.</p></div>
+          <div *ngIf="email.errors && email.touched"><p>Correo electrónico es requerido.</p></div>
         </div>
 
         <ion-list>
@@ -23,12 +23,12 @@
             <ion-input [(ngModel)]="forgetData.email" [formControl]="email" id="email" type="email" required placeholder="Email *"></ion-input>
           </ion-item>
         </ion-list>
-        <button type="submit" ion-button full color="dark" [disabled]="!authForm.valid">Send</button>
+        <button type="submit" ion-button full color="dark" [disabled]="!authForm.valid">Enviar</button>
       </form>
 
       <div padding text-center class="form-bottom-text">
         <label>
-          <a href="javascript:void(0);" (click)="moveToLogin()">Back to Login</a>
+          <a href="javascript:void(0);" (click)="moveToLogin()">Atrás para iniciar sesión</a>
         </label>
       </div>
 
